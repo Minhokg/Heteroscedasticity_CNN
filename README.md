@@ -1,4 +1,4 @@
-# Heteroscedasticity_CNN
+# Heteroscedasticity for CNN
 ##This is a project for predicting heteroscedasticity data by using Convolutional Neural Network.
 
 Traditionally, to do a prediction like linear regression, we have to make some assumptions about an error term.
