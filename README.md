@@ -15,6 +15,13 @@ x & \in[0,\frac{1}{2}\pi],\epsilon\sim N(0,1)
 \end{align*}
 $$
 
+To understand vividly, Let's plot the graph of the above formula. I drew $x$ vs $y$ and $x$ vs $\sigma^{2}$.
+
+![Homoscedasticity](https://user-images.githubusercontent.com/90128043/222946086-3309a726-fca9-4e28-8d12-8b0f08318067.jpg)
+
+We can see that the variance of error terms is not dependent on $x$
+
+
 
 But we can't do regression on the next heteroscedasticity data (changing variance) 
 
@@ -25,7 +32,7 @@ x\in[0,\frac{1}{2}\pi], \epsilon &\sim N(0,0.02+0.02\times(1-sin4x)^{2})
 \end{align*}
 $$
 
-$\epsilon$ is dependent on $x$ variable.
+$\epsilon$ is dependent on $x$ variable. 
 
 ![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222945867-9f4fd0fd-46ef-4f7a-96ec-9b1b504a717f.jpg)
 
