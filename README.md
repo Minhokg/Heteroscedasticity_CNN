@@ -1,5 +1,5 @@
 # Heteroscedasticity for CNN
-## Hi, My name is Minho. This is a my project for predicting heteroscedasticity data by using Convolutional Neural Network.
+## This is a my project for predicting heteroscedasticity data by using Convolutional Neural Network.
 
 Traditionally, to do a prediction like linear regression, we have to make some assumptions about an error term.
 1. Independent and identically distributed (IID)
