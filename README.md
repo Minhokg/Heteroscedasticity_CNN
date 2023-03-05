@@ -17,6 +17,7 @@ $$
 
 
 But 
+
 $$
 \begin{align*}
 y & =sin4x\times sin5x+\epsilon\\
