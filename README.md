@@ -15,6 +15,8 @@ x & \in[0,\frac{1}{2}\pi],\epsilon\sim N(0,1)
 \end{align*}
 $$
 
+
+But 
 $$
 \begin{align*}
 y & =sin4x\times sin5x+\epsilon\\
