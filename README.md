@@ -27,8 +27,8 @@ $$
 
 $\epsilon$ is dependent on $x$ variable.
 
+![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222945827-d67c2c5e-46da-4f20-b54b-52d93c227845.jpg)
 
-![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222940105-e339cddd-6748-4f5a-973f-3b7014e84a19.png)
 
 
 In this report, I'm going to do a prediction on the heteroscedasticity data by using Convolutional Neural Network.
