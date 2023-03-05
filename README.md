@@ -1,6 +1,7 @@
 # Heteroscedasticity for CNN
-## This is a my project for predicting heteroscedasticity data by using Convolutional Neural Network.
+This is a my project for predicting heteroscedasticity data by using Convolutional Neural Network.
 
+## 1. Hmoscedasticity 
 Traditionally, to do a prediction like linear regression, we have to make some assumptions about an error term.
 1. Independent and identically distributed (IID)
 2. Normality
@@ -23,7 +24,7 @@ To understand vividly, Let's plot the graph of the above formula. I drew $x$ vs 
 
 We can see that the variance of error terms is not dependent on $x$
 
-
+## 2. Hmoscedasticity 
 
 But we can't do regression on the next heteroscedasticity data (changing variance) 
 
@@ -39,7 +40,7 @@ $\epsilon$ is dependent on $x$ variable.
 
 ![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222947165-3ca5df54-5ff8-432c-9cde-3a2f6785850a.jpg)
 
-
+## 3. Convolutional Neural Network
 In this report, I'm going to do a prediction on the heteroscedasticity data by using Convolutional Neural Network.
 More precisely, I would use two CNNs comprised of two different loss function: Mean Sqaure Error (MSE) and Negative Log Likelihood (NLL). Because error terms follow a Gaussian distribution, NLL also have to be set accordingly. Belows are two formuals each.
 
