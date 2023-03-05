@@ -30,5 +30,5 @@ $\epsilon$ is dependent on $x$ variable.
 In this report, I'm going to do a prediction on the heteroscedasticity data by using Convolutional Neural Network.
 More precisely, I would use two CNNs comprised of two different loss function: Mean Sqaure Error (MSE) and Negative Log Likelihood (NLL). Because error terms follow a Gaussian distribution, NLL also have to be set accordingly. Belows are two formuals each.
 
-1. MSE = $\frac{1}{n_{obs}}\sum(y_{true}-y_{pred})^{2}$
+1. MSE = ${\huge \frac{1}{n_{obs}}\sum(y_{true}-y_{pred})^{2}$}
 2. NLL = $\frac{1}{2n_{obs}}\sum_{i}\frac{(y_{i,true}-y_{i,pred})^{2}}{\sigma_{i}^{2}}+\text{log}(\sigma_{i}^{2})$
