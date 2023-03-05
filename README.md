@@ -27,7 +27,7 @@ $$
 
 $\epsilon$ is dependent on $x$ variable.
 
-![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222945827-d67c2c5e-46da-4f20-b54b-52d93c227845.jpg)
+![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222945867-9f4fd0fd-46ef-4f7a-96ec-9b1b504a717f.jpg)
 
 
 
