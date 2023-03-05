@@ -1,3 +1,13 @@
 # Heteroscedasticity_CNN
 This is a project for predicting heteroscedasticity data by using CNN
-$$y =sin4x\times sin5x+\epsilon \\ x\in[0,\frac{1}{2}\pi],\epsilon\sim N(0,0.02+0.02\times(1-sin4x)^{2})$$
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align}
+    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
+        \mathbb{E} & \Phi\left(1, 
+        x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
+        + \int_0^1 \sigma(s) \, dW_s
+    \right) \\
+        &- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
+        \mathbb{E} u_s^2  \, ds
+    \bigg].
+\end{align} %]]></script>
