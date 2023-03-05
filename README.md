@@ -27,6 +27,10 @@ $$
 
 $\epsilon$ is dependent on $x$ variable.
 
+
+![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222940105-e339cddd-6748-4f5a-973f-3b7014e84a19.png)
+
+
 In this report, I'm going to do a prediction on the heteroscedasticity data by using Convolutional Neural Network.
 More precisely, I would use two CNNs comprised of two different loss function: Mean Sqaure Error (MSE) and Negative Log Likelihood (NLL). Because error terms follow a Gaussian distribution, NLL also have to be set accordingly. Belows are two formuals each.
 
