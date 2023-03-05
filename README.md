@@ -17,7 +17,9 @@ $$
 
 To understand vividly, Let's plot the graph of the above formula. I drew $x$ vs $y$ and $x$ vs $\sigma^{2}$.
 
-![Homoscedasticity](https://user-images.githubusercontent.com/90128043/222946086-3309a726-fca9-4e28-8d12-8b0f08318067.jpg)
+
+![Homoscedasticity](https://user-images.githubusercontent.com/90128043/222947159-fb45cc01-7342-44b4-bb38-a2bc8e5f4f5a.jpg)
+
 
 We can see that the variance of error terms is not dependent on $x$
 
@@ -34,8 +36,8 @@ $$
 
 $\epsilon$ is dependent on $x$ variable. 
 
-![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222945867-9f4fd0fd-46ef-4f7a-96ec-9b1b504a717f.jpg)
 
+![Heteroscedasticity](https://user-images.githubusercontent.com/90128043/222947165-3ca5df54-5ff8-432c-9cde-3a2f6785850a.jpg)
 
 
 In this report, I'm going to do a prediction on the heteroscedasticity data by using Convolutional Neural Network.
